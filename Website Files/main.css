@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.height {
+    height: 75vh;
+}
+
+.height2 {
+    height: 50px;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 6.25%;}
+.col-2 {width: 12.5%;}
+.col-3 {width: 18.75%;}
+.col-4 {width: 25%;}
+.col-5 {width: 31.25%;}
+.col-6 {width: 37.5%;}
+.col-7 {width: 43.75%;}
+.col-8 {width: 50%;}
+.col-9 {width: 56.25%;}
+.col-10 {width: 62.5%;}
+.col-11 {width: 68.75%;}
+.col-12 {width: 75%;}
+.col-13 {width: 81.25%;}
+.col-14 {width: 87.5%;}
+.col-15 {width: 93.75%;}
+.col-16 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: lightgray;
+    border: 5px solid gray;
+    height: 70vh;
+}
+
+.buttons {
+    background-color: lightgray;
+    border: 5px solid gray;
+    height: 10vh;
+    text-align: center;
+    line-height: 8vh;
+    margin: 0;
+}
+
+.buttons:hover {
+    background-color: gray;
+}
+
+.buttonWindow {
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    top: 25vh;
+    left: 25vw;
+    z-index: 10;
+    background-color: #EFEFEF;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 10vh;
+    visibility: hidden;
+}
+
+.menuButton {
+    background-color: lightgray;
+    border-bottom: 5px solid gray;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+}
+
+.menuButton:hover {
+    background-color: gray;
+}
+
+.scrollContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.agenda {
+    border: 1px solid gray;
+    z-index: 0;
+}
+
+.times {
+    background-color: lightgray;
+    border: 1px solid gray;
+    color: gray;
+    text-align: right;
+}
+
+.top {
+    background-color: red;
+    height: 20vh;
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    line-height: 20vh;
+}
+
+.days {
+    background-color: lightgray;
+    border-bottom: 1px solid gray;
+    line-height: 5vh;
+    color: gray;
+    text-align: center;
+    height: 5vh;
+}
+
+.mid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.login {
+    width: 200px;
+    height: 200px;
+}
+
+.addAgenda {
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    top: 25vh;
+    left: 25vw;
+    z-index: 10;
+    background-color: #EFEFEF;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.cross {
+    z-index: 15;
+    float: right;
+    background-color: #CF0000;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.cross:hover {
+    background-color: red;
+}
+
+.cross2 {
+    z-index: 15;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    background-color: #CF0000;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.cross2:hover {
+    background-color: red;
+}
+
+.inner {
+    margin: 10px;
+    height: 30px;
+    width: calc(100%-20px);
+    z-index: 10;
+}
+
+.inner2 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+
+.extraInfo {
+    position: relative;
+    font-size: 15px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #EFEFEF;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    visibility: hidden;
+    padding: 0;
+}
