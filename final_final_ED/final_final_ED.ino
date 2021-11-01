@@ -1,6 +1,6 @@
 #include <Servo.h>
-#include <C:\Users\20202408\OneDrive - TU Eindhoven\engineering design\Code\finalcode_ED\final_ED_Onno\melodies\pitches.h>
-#include <C:\Users\20202408\OneDrive - TU Eindhoven\engineering design\Code\finalcode_ED\final_ED_Onno\melodies\melodies.ino>
+#include <..\pitches.h>
+#include <..\melodies\melodies.ino>
 
 //Strings used for testing
 String ServoOn = "1;#FF00FF;2";
